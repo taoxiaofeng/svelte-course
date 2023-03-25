@@ -1,8 +1,9 @@
 <script lang="ts">
-  import svelteLogo from './assets/svelte.svg'
-  import viteLogo from '/vite.svg'
-  import Counter from './lib/Counter.svelte'
+  // import svelteLogo from './assets/svelte.svg'
+  // import viteLogo from '/vite.svg'
+  // import Counter from './lib/Counter.svelte'
   import State from './lib/State.svelte'
+  import Compute from './lib/Compute.svelte';
 </script>
 
 <main>
@@ -27,7 +28,10 @@
   <p class="read-the-docs">
     Click on the Vite and Svelte logos to learn more
   </p> -->
-  <State />
+  <!-- 状态 -->
+  <!-- <State /> -->
+  <!-- 计算属性 -->
+  <Compute />
 </main>
 
 <style>

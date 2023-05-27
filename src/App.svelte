@@ -7,6 +7,9 @@
   import Bind from './lib/Bind.svelte';
   import Style from './lib/Style.svelte';
   import Parent from './lib/Parent.svelte';
+  import CParent from './lib/CParent.svelte';
+  import RenderHtml from './lib/RenderHtml.svelte';
+  import Steper from './lib/Steper.svelte';
 </script>
 
 <main>
@@ -40,7 +43,10 @@
   <!-- 样式 -->
   <!-- <Style />  这样无法渲染，待解决 -->
   <!-- <Style></Style>  -->
-  <Parent />
+  <!-- <Parent /> -->
+  <!-- <CParent /> -->
+  <!-- <RenderHtml /> -->
+  <Steper />
 </main>
 
 <style>

@@ -27,6 +27,7 @@
  */
 declare module '$env/static/private' {
 	export const NVM_INC: string;
+	export const _VOLTA_TOOL_RECURSION: string;
 	export const MANPATH: string;
 	export const TERM_PROGRAM: string;
 	export const npm_package_exports___vite_import: string;
@@ -39,8 +40,8 @@ declare module '$env/static/private' {
 	export const npm_package_devDependencies__types_marked: string;
 	export const npm_package_homepage: string;
 	export const npm_config_version_git_tag: string;
-	export const SHELL: string;
 	export const TERM: string;
+	export const SHELL: string;
 	export const npm_package_devDependencies_vite: string;
 	export const npm_package_dependencies_devalue: string;
 	export const TMPDIR: string;
@@ -50,15 +51,16 @@ declare module '$env/static/private' {
 	export const TERM_PROGRAM_VERSION: string;
 	export const npm_package_dependencies_set_cookie_parser: string;
 	export const npm_package_dependencies_cookie: string;
-	export const MallocNanoZone: string;
-	export const ORIGINAL_XDG_CURRENT_DESKTOP: string;
 	export const ZDOTDIR: string;
+	export const VOLTA_HOME: string;
+	export const ORIGINAL_XDG_CURRENT_DESKTOP: string;
+	export const MallocNanoZone: string;
 	export const npm_package_devDependencies_svelte_preprocess: string;
 	export const npm_config_registry: string;
 	export const npm_config_home: string;
 	export const ZSH: string;
-	export const LC_ALL: string;
 	export const PNPM_HOME: string;
+	export const LC_ALL: string;
 	export const npm_package_repository_url: string;
 	export const npm_package_readmeFilename: string;
 	export const USER: string;
@@ -112,8 +114,8 @@ declare module '$env/static/private' {
 	export const XPC_SERVICE_NAME: string;
 	export const npm_package_version: string;
 	export const VSCODE_INJECTION: string;
-	export const HOME: string;
 	export const SHLVL: string;
+	export const HOME: string;
 	export const npm_package_dependencies_undici: string;
 	export const npm_package_type: string;
 	export const VSCODE_GIT_ASKPASS_MAIN: string;
@@ -137,10 +139,10 @@ declare module '$env/static/private' {
 	export const npm_config_version_git_sign: string;
 	export const npm_config_ignore_scripts: string;
 	export const npm_config_user_agent: string;
-	export const HOMEBREW_CELLAR: string;
-	export const INFOPATH: string;
-	export const GIT_ASKPASS: string;
 	export const VSCODE_GIT_ASKPASS_NODE: string;
+	export const INFOPATH: string;
+	export const HOMEBREW_CELLAR: string;
+	export const GIT_ASKPASS: string;
 	export const npm_package_files_2: string;
 	export const npm_package_devDependencies__types_node: string;
 	export const npm_package_devDependencies__playwright_test: string;
@@ -188,6 +190,7 @@ declare module '$env/static/public' {
 declare module '$env/dynamic/private' {
 	export const env: {
 		NVM_INC: string;
+		_VOLTA_TOOL_RECURSION: string;
 		MANPATH: string;
 		TERM_PROGRAM: string;
 		npm_package_exports___vite_import: string;
@@ -200,8 +203,8 @@ declare module '$env/dynamic/private' {
 		npm_package_devDependencies__types_marked: string;
 		npm_package_homepage: string;
 		npm_config_version_git_tag: string;
-		SHELL: string;
 		TERM: string;
+		SHELL: string;
 		npm_package_devDependencies_vite: string;
 		npm_package_dependencies_devalue: string;
 		TMPDIR: string;
@@ -211,15 +214,16 @@ declare module '$env/dynamic/private' {
 		TERM_PROGRAM_VERSION: string;
 		npm_package_dependencies_set_cookie_parser: string;
 		npm_package_dependencies_cookie: string;
-		MallocNanoZone: string;
-		ORIGINAL_XDG_CURRENT_DESKTOP: string;
 		ZDOTDIR: string;
+		VOLTA_HOME: string;
+		ORIGINAL_XDG_CURRENT_DESKTOP: string;
+		MallocNanoZone: string;
 		npm_package_devDependencies_svelte_preprocess: string;
 		npm_config_registry: string;
 		npm_config_home: string;
 		ZSH: string;
-		LC_ALL: string;
 		PNPM_HOME: string;
+		LC_ALL: string;
 		npm_package_repository_url: string;
 		npm_package_readmeFilename: string;
 		USER: string;
@@ -273,8 +277,8 @@ declare module '$env/dynamic/private' {
 		XPC_SERVICE_NAME: string;
 		npm_package_version: string;
 		VSCODE_INJECTION: string;
-		HOME: string;
 		SHLVL: string;
+		HOME: string;
 		npm_package_dependencies_undici: string;
 		npm_package_type: string;
 		VSCODE_GIT_ASKPASS_MAIN: string;
@@ -298,10 +302,10 @@ declare module '$env/dynamic/private' {
 		npm_config_version_git_sign: string;
 		npm_config_ignore_scripts: string;
 		npm_config_user_agent: string;
-		HOMEBREW_CELLAR: string;
-		INFOPATH: string;
-		GIT_ASKPASS: string;
 		VSCODE_GIT_ASKPASS_NODE: string;
+		INFOPATH: string;
+		HOMEBREW_CELLAR: string;
+		GIT_ASKPASS: string;
 		npm_package_files_2: string;
 		npm_package_devDependencies__types_node: string;
 		npm_package_devDependencies__playwright_test: string;

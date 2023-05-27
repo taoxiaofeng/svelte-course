@@ -4,6 +4,9 @@
   // import Counter from './lib/Counter.svelte'
   import State from './lib/State.svelte'
   import Compute from './lib/Compute.svelte';
+  import Bind from './lib/Bind.svelte';
+  import Style from './lib/Style.svelte';
+  import Parent from './lib/Parent.svelte';
 </script>
 
 <main>
@@ -31,11 +34,17 @@
   <!-- 状态 -->
   <!-- <State /> -->
   <!-- 计算属性 -->
-  <Compute />
+  <!-- <Compute /> -->
+  <!-- 双向绑定数据 -->
+  <!-- <Bind /> -->
+  <!-- 样式 -->
+  <!-- <Style />  这样无法渲染，待解决 -->
+  <!-- <Style></Style>  -->
+  <Parent />
 </main>
 
 <style>
-  .logo {
+  /* .logo {
     height: 6em;
     padding: 1.5em;
     will-change: filter;
@@ -49,5 +58,5 @@
   }
   .read-the-docs {
     color: #888;
-  }
+  } */
 </style>

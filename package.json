@@ -21,6 +21,8 @@
   "dependencies": {
     "@sveltejs/adapter-auto": "^2.0.0",
     "@sveltejs/adapter-node": "next",
-    "@sveltejs/kit": "next"
+    "@sveltejs/kit": "next",
+    "node-sass": "^9.0.0",
+    "svelte-preprocess": "^5.0.4"
   }
 }

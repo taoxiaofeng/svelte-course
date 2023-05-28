@@ -1,20 +1,22 @@
 <script lang="ts">
+  import Todo from "./lib/Todo.svelte";
+
   // import svelteLogo from './assets/svelte.svg'
   // import viteLogo from '/vite.svg'
   // import Counter from './lib/Counter.svelte'
-  import State from './lib/State.svelte'
-  import Compute from './lib/Compute.svelte';
-  import Bind from './lib/Bind.svelte';
-  import Style from './lib/Style.svelte';
-  import Parent from './lib/Parent.svelte';
-  import CParent from './lib/CParent.svelte';
-  import RenderHtml from './lib/RenderHtml.svelte';
-  import Steper from './lib/Steper.svelte';
-  import ChangeObj from './lib/ChangeObj.svelte';
-  import If from './lib/If.svelte';
-  import List from './lib/List.svelte';
-  import Await from './lib/Await.svelte';
-  import CRef from './lib/CRef.svelte';
+  // import State from './lib/State.svelte'
+  // import Compute from './lib/Compute.svelte';
+  // import Bind from './lib/Bind.svelte';
+  // import Style from './lib/Style.svelte';
+  // import Parent from './lib/Parent.svelte';
+  // import CParent from './lib/CParent.svelte';
+  // import RenderHtml from './lib/RenderHtml.svelte';
+  // import Steper from './lib/Steper.svelte';
+  // import ChangeObj from './lib/ChangeObj.svelte';
+  // import If from './lib/If.svelte';
+  // import List from './lib/List.svelte';
+  // import Await from './lib/Await.svelte';
+  // import CRef from './lib/CRef.svelte';
   // import ParentHoverable from './lib/ParentHoverable.svelte';
 
 </script>
@@ -59,7 +61,8 @@
   <!-- <List /> -->
   <!-- <Await /> -->
   <!-- <ParentHoverable /> -->
-  <CRef />
+  <!-- <CRef /> -->
+  <Todo />
 </main>
 
 <style>

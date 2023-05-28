@@ -17,7 +17,7 @@
     console.log(count);
   }
   // computed
-  $:total = count * price;
+  $:total = (count * price).toFixed(2);
 </script>
 
 <button on:click={add}>+</button>

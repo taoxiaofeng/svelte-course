@@ -14,7 +14,9 @@
   import If from './lib/If.svelte';
   import List from './lib/List.svelte';
   import Await from './lib/Await.svelte';
-  import ParentHoverable from './lib/ParentHoverable.svelte';
+  import CRef from './lib/CRef.svelte';
+  // import ParentHoverable from './lib/ParentHoverable.svelte';
+
 </script>
 
 <main>
@@ -51,12 +53,13 @@
   <!-- <Parent /> -->
   <!-- <CParent /> -->
   <!-- <RenderHtml /> -->
-  <!-- <Steper /> -->
+  <!-- <Steper />   -->
   <!-- <ChangeObj /> -->
   <!-- <If /> -->
   <!-- <List /> -->
   <!-- <Await /> -->
-  <ParentHoverable />
+  <!-- <ParentHoverable /> -->
+  <CRef />
 </main>
 
 <style>

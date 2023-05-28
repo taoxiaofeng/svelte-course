@@ -1,11 +1,15 @@
 <script lang="ts">
-
+  let flag = true;
 </script>
 
 
-<div>
+<!-- svelte的语法更像模版 -->
+{#if flag}
+  <div>flag为true</div>
+{:else}
+  <div>flag为false</div>
+{/if}
 
-</div>
 
 <style>
   div {

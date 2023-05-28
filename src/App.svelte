@@ -10,6 +10,10 @@
   import CParent from './lib/CParent.svelte';
   import RenderHtml from './lib/RenderHtml.svelte';
   import Steper from './lib/Steper.svelte';
+  import ChangeObj from './lib/ChangeObj.svelte';
+  import If from './lib/If.svelte';
+  import List from './lib/List.svelte';
+  import Await from './lib/Await.svelte';
 </script>
 
 <main>
@@ -46,7 +50,11 @@
   <!-- <Parent /> -->
   <!-- <CParent /> -->
   <!-- <RenderHtml /> -->
-  <Steper />
+  <!-- <Steper /> -->
+  <!-- <ChangeObj /> -->
+  <!-- <If /> -->
+  <!-- <List /> -->
+  <Await />
 </main>
 
 <style>

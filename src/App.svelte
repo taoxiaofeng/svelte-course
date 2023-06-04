@@ -20,8 +20,10 @@
   // import Await from './lib/Await.svelte';
   // import CRef from './lib/CRef.svelte';
   // import ParentHoverable from './lib/ParentHoverable.svelte';
-  import CTick from './lib/CTick.svelte';
-
+  // import CTick from './lib/CTick.svelte';
+  // import Tweened from "./lib/Tweened.svelte";
+  import Spring from "./lib/Spring.svelte";
+  // import Visible from "./lib/Visible.svelte";
 </script>
 
 <main>
@@ -67,7 +69,10 @@
   <!-- <CRef /> -->
   <!-- <Todo /> -->
   <!-- <LifeCycle /> -->
-  <CTick />
+  <!-- <CTick /> -->
+  <!-- <Tweened /> -->
+  <Spring />
+  <!-- <Visible /> -->
 </main>
 
 <style>
@@ -86,4 +91,15 @@
   .read-the-docs {
     color: #888;
   } */
+
+  main {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+  }
 </style>

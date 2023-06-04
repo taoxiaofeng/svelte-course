@@ -1,6 +1,8 @@
 <script lang="ts">
   // import Todo from "./lib/Todo.svelte";
 
+  import Event from "./lib/Event.svelte";
+
   // import LifeCycle from "./lib/LifeCycle.svelte";
 
   // import svelteLogo from './assets/svelte.svg'
@@ -22,7 +24,7 @@
   // import ParentHoverable from './lib/ParentHoverable.svelte';
   // import CTick from './lib/CTick.svelte';
   // import Tweened from "./lib/Tweened.svelte";
-  import Spring from "./lib/Spring.svelte";
+  // import Spring from "./lib/Spring.svelte";
   // import Visible from "./lib/Visible.svelte";
 </script>
 
@@ -71,8 +73,9 @@
   <!-- <LifeCycle /> -->
   <!-- <CTick /> -->
   <!-- <Tweened /> -->
-  <Spring />
+  <!-- <Spring /> -->
   <!-- <Visible /> -->
+  <Event />
 </main>
 
 <style>
@@ -100,6 +103,6 @@
     right: 0;
     bottom: 0;
     left: 0;
-    
+
   }
 </style>

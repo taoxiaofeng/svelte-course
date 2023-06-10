@@ -1,10 +1,16 @@
 <script>
-  import { tweened } from 'svelte/motion';
+  import { tweened, spring } from 'svelte/motion';
   import { cubicOut } from 'svelte/easing';
 
-  const progress = tweened(0, {
-    duration: 2000,
-    easing: cubicOut
+  // const progress = tweened(0, {
+  //   duration: 2000,
+  //   easing: cubicOut
+  // });
+
+  // spring 是具有弹性的
+  const progress = spring(0, {
+    stiffness: 0.1,
+    damping: 0.25
   });
 </script>
 
@@ -20,5 +26,5 @@
     height: 20px;
     display: flex;
 
-  }
+  } 
 </style>
